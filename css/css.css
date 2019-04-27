@@ -1,0 +1,227 @@
+body {
+    font-family: 'Sintony', sans-serif;
+    color: #5c6369;
+}
+ul, li {
+    display: block;
+    padding: 0;
+    margin: 0;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    color: #14141b;
+}
+p {
+    line-height: 1.8em;
+}
+.yellow {
+    color: #fea100;
+}
+.menu {
+    justify-content: space-between;
+    margin-top: 10px;
+}
+.menu__item {
+    font-weight: 700;
+    font-size: 14px;
+}
+.menu__item a {
+    color: #2c465a;
+    text-transform: uppercase;
+}
+.cta {
+    background: #fea100;
+    color: #ffffff;
+    font-size: 14px;
+    border-radius: 3px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 15px 0;
+    display: block;
+    cursor: pointer;
+    width: 200px;
+    border: 0;
+    margin-top: -5px;
+    text-align: center;
+}
+.cta:hover {
+    text-decoration: none;
+    color: #fff;
+}
+.book__icon {
+    background: url('../img/order.png');
+    width: 21px;
+    height: 17px;
+    margin-right: 13px;
+}
+.main-header {
+    padding: 24px 0;
+}
+.offer {
+    background: url('../img/first-bg.jpg') no-repeat center top;
+}
+.title {
+    padding: 220px 0;
+    
+}
+.title__heading {
+    color: #ffffff;
+    font-size: 56px;
+}
+.title__desc {
+    font-family: 'Playfair Display SC', serif;
+    font-weight: 700;
+    font-size: 40px;
+    color: #ffffff;
+    margin-top: -15px;
+}
+.title__desc span {
+    color: #fea100;
+}
+.call {
+    background: #edf1f3;
+    border-bottom: 1px solid #dde3e7;
+    padding: 30px 0;
+    margin-top: -26px;
+}
+.phone {
+    width: 455px;
+}
+.phone__text {
+    background: url('../img/phone.png') no-repeat left center;
+    color: #14141d;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 700;
+    padding-left: 56px;
+}
+.phone__text span {
+    font-size: 16px;
+    margin-top: -4px;
+    display: block;
+}
+.phone__digits {
+    color: #14141d;
+    margin-left: 42px;
+    font-weight: 700;
+    margin-top: -5px;
+    font-size: 32px;
+    font-family: 'Plantagenet Cherokee', serif;
+}
+
+.about {
+    padding: 10px 0 10px;
+}
+.history {
+    padding: 116px 0 118px;
+    margin-left: -12px;
+}
+.history__title {
+    font-size: 35px;
+    margin-bottom: 38px;
+}
+.history__text {
+    font-size: 14px;
+    font-family: 'Times New Roman' serif;
+}
+.history__button{
+    margin-top: 45px;
+    width: 145px;
+}
+.pic1 {
+    margin-top: 115px; 
+}
+.pic1__2, .pic2__2 {
+    margin-top: 10px;
+}
+.pic2 {
+    margin-top: 65px;
+    margin-left: 10px;
+}
+.special {
+    background: url('../img/third-bg.jpg') no-repeat center top;
+    padding-top: 80px;
+}
+.special-title {
+    font-size: 35px;
+    color: #fff;
+    text-align: center;
+}
+.food {
+    text-align: center;
+    box-shadow: 0 20px 90px rgba(0,0,0,0.15);
+	margin-bottom: 130px;
+	margin-top: 20px;
+}
+.food__img {
+    margin-top: 23px;
+    margin-bottom: 45px;
+}
+.food__title {
+    font-size: 26px;
+    margin-bottom: 10px;
+}
+.food__desc {
+    font-size: 14px;
+    padding: 0 50px;   
+}
+.food__details {
+    border-top: 1px solid #e1e1e1;
+    margin: 0 45px;
+    text-align: left;
+    font-weight: 700;
+    color: #14141b;
+    padding: 19px 0;
+}
+.food__del {
+    text-transform: uppercase;
+    font-size: 13px;
+    width: 78px;
+    line-height: 1.3;
+    border-right: 1px solid #e1e1e1;
+}
+.food__del span {
+    color: #fe4c8d;
+}
+.food__phone {
+    font-size: 26px;
+    font-family: 'Plantagenet Cherokee', serif;
+    color: #14141d;
+    margin-left: 20px;
+    margin-top: -2px;
+}
+.food__price {
+    font-size: 30px;
+    font-family: 'Plantagenet Cherokee', serif;
+    margin-top: -5px;
+    margin-left: 100px;
+}
+sup {
+    margin-right: -7px;
+    padding-bottom: -400px;
+}
+footer {
+    background: #373844;
+    padding: 78px 110px;
+    color: #93989e;
+}
+.socials {
+
+}
+.socials__items a {
+    width: 52px;
+    height: 52px;
+    border-radius: 50%;
+    display: block;
+}
+.socials__item_face a {
+    background: #3b5998 url('../img/fb.png') no-repeat center center;
+}
+.socials__item_tweet a {
+    background: #55acee url('../img/tw.png') no-repeat center center;
+    margin: 0 7px;
+}
+.socials__item_google a {
+    background: #dd4b39 url('../img/g.png') no-repeat center center;
+}
